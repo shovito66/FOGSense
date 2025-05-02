@@ -4,7 +4,7 @@
 ---
 
 ##### *FOGSense has been accepted at The 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), July 14–17, 2025, Copenhagen, Denmark*
-*
+
 
 #### Full-text PDF: [https://arxiv.org/abs/2411.11764](https://arxiv.org/abs/2411.11764)
 
