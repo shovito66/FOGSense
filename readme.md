@@ -3,15 +3,29 @@
 ***Shovito Barua Soumma, S M Raihanul Alam, Rudmila Rahman, Umme Niraj Mahi, Abdullah Mamun, Sayyed Mostafa Mostafavi, Hassan Ghasemzadeh***
 ---
 
+##### *FOGSense has been accepted at The 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), July 14–17, 2025, Copenhagen, Denmark*
+*
 
-```
-pip3 freeze > requirements.txt
-```
+#### Full-text PDF: [https://arxiv.org/abs/2411.11764](https://arxiv.org/abs/2411.11764)
 
+
+## How to cite?
+````
+@misc{fogsense2025,
+      title={Freezing of Gait Detection Using Gramian Angular Fields and Federated Learning from Wearable Sensors}, 
+      author={Shovito Barua Soumma and S M Raihanul Alam and Rudmila Rahman and Umme Niraj Mahi and Abdullah Mamun and Sayyed Mostafa Mostafavi and Hassan Ghasemzadeh},
+      year={2024},
+      eprint={2411.11764},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2411.11764}, 
+}
+````
 
 ## Table of Contents
-- [To Cite This Work](#to-cite-this-work)
+- [To Cite This Work](#how-to-cite)
 - [Abstract](#abstract)
+- [Dataset](#dataset)
 - [Project Structure](#project-structure)
 - [Getting the Code](#getting-the-code)
 - [Running the Code](#running-the-code)
@@ -24,6 +38,16 @@ pip3 freeze > requirements.txt
 
 ## Abstract
 Freezing of gait (FOG) is a debilitating symptom of Parkinson's disease (PD) that impairs mobility and safety. Traditional detection methods face challenges due to intra and inter-patient variability, and most systems are tested in controlled settings, limiting their real-world applicability. Addressing these gaps, we present ***FOGSense***, a novel FOG detection system designed for uncontrolled, free-living conditions.![](manuscript-supplementary/method.png) It uses Gramian Angular Field (GAF) transformations and federated deep learning to capture temporal and spatial gait patterns missed by traditional methods. We evaluated our FOGSense system using a public PD dataset, 'tdcsfog'. FOGSense improves accuracy by 10.4% over a single-axis accelerometer, reduces failure points compared to multi-sensor systems, and demonstrates robustness to missing values. The federated architecture allows personalized model adaptation and efficient smartphone synchronization during off-peak hours, making it effective for long-term monitoring as symptoms evolve. Overall, FOGSense achieves a 22.2% improvement in F1-score compared to state-of-the-art methods, along with enhanced sensitivity for FOG episode detection.
+
+
+
+## Dataset
+- **Orginial dataset:** [https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/data](https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/data)
+
+- **To create GAF Images:** use [preprocess-for-cnn.ipynb](preprocess-for-cnn.ipynb) and excecutes cells after titled ***Checkpoint 3 => Start from here for image generation for each ranges after restart*** ![](manuscript-supplementary/image-generation.png)
+
+- Download the our preprocessed gaf images: [https://drive.google.com/drive/folders/1-4T7mhb15FF-LjHrpjDIB_PSonsBBbIW](https://drive.google.com/drive/folders/1-4T7mhb15FF-LjHrpjDIB_PSonsBBbIW)
+
 
 ## Project Structure
 
