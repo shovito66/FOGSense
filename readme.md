@@ -3,7 +3,7 @@
 ***Shovito Barua Soumma, S M Raihanul Alam, Rudmila Rahman, Umme Niraj Mahi, Abdullah Mamun, Sayyed Mostafa Mostafavi, Hassan Ghasemzadeh***
 ---
 
-##### *FOGSense has been accepted at The 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), July 14–17, 2025, Copenhagen, Denmark*
+##### *FOGSense has been accepted at the 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), July 14–17, 2025, Copenhagen, Denmark*
 
 
 #### Full-text PDF: [https://arxiv.org/abs/2411.11764](https://arxiv.org/abs/2411.11764)
@@ -47,6 +47,8 @@ Freezing of gait (FOG) is a debilitating symptom of Parkinson's disease (PD) tha
 - **To create GAF Images:** use [preprocess-for-cnn.ipynb](preprocess-for-cnn.ipynb) and excecutes cells after titled ***Checkpoint 3 => Start from here for image generation for each ranges after restart*** ![](manuscript-supplementary/image-generation.png)
 
 - Download the our preprocessed gaf images: [https://drive.google.com/drive/folders/1-4T7mhb15FF-LjHrpjDIB_PSonsBBbIW](https://drive.google.com/drive/folders/1-4T7mhb15FF-LjHrpjDIB_PSonsBBbIW)
+  
+  - **Download as Zip**: [https://www.dropbox.com/scl/fo/rcveiko1suqb1a8lvs145/AAWqgZC871XBs-dX1mNjkEc?rlkey=741nnodapgzeuvlin0dcjewwa&st=3aa7rae5&dl=0](https://www.dropbox.com/scl/fo/rcveiko1suqb1a8lvs145/AAWqgZC871XBs-dX1mNjkEc?rlkey=741nnodapgzeuvlin0dcjewwa&st=3aa7rae5&dl=0)
 
 
 ## Project Structure
